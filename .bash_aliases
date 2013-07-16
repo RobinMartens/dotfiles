@@ -39,3 +39,6 @@ alias sz='sizeof'
 # deal with screen
 alias screen?='echo $STY'
 alias s?='screen?'
+
+# track dotfiles in git
+alias dotcommit='cd ~ && git add .bashrc && git add .bash_aliases && git add .vimrc && git commit -m "updating dotfiles" && cd -'
