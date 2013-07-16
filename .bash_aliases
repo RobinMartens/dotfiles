@@ -30,7 +30,9 @@ alias hmax='~/bin/hmax_shortcuts.sh'
 alias hmaxshortcuts='vim ~/bin/hmax_shortcuts.sh'
 
 # quickly compile kernels
-alias kernels='${HMAXPATH}/tools/run_kernel.py'
+alias compile_kernels='${HMAXPATH}/tools/run_kernel.py'
+alias kernels='compile_kernels'
+alias ck='compile_kernels'
 
 # homebrew utilities
 alias sizeof='~/bin/sizeof.sh'
