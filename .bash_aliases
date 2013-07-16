@@ -44,4 +44,4 @@ alias s?='screen?'
 
 # track dotfiles in git
 alias dotcommit='cd ~ && git add .bashrc && git add .bash_aliases && git add .vimrc && git commit -m "updating dotfiles" && cd -'
-alias dotpush='dotcommit || git push origin master'
+alias dotpush='dotcommit ; git push origin master'
