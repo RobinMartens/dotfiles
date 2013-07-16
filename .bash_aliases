@@ -43,5 +43,5 @@ alias screen?='echo $STY'
 alias s?='screen?'
 
 # track dotfiles in git
-alias dotcommit='cd ~ && git add .bashrc && git add .bash_aliases && git add .vimrc && git commit -m "updating dotfiles" && cd -'
+alias dotcommit='cd ~ && git add .bashrc && git add .bash_aliases && git add .vimrc && git commit -m "{$1}" ; cd -'
 alias dotpush='dotcommit ; git push origin master'
